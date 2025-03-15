@@ -39,7 +39,7 @@ class _AuthPageState extends State<AuthPage> with SingleTickerProviderStateMixin
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/image/compe.png', height: 70),
+                  Image.asset('assets/image/LogoFull.png', height: 70),
                   const SizedBox(width: 10),
                   const Text(
                     'Competify',

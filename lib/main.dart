@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:competify_app/services/firebase_service.dart';
 import 'package:competify_app/pages/auth/auth_page.dart';
 import 'package:competify_app/pages/home/home_page.dart';
+import 'package:competify_app/pages/search/search_lomba.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
