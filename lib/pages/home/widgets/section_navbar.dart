@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 // import 'package:competify_app/pages/home/lomba_page.dart';
 // import 'package:competify_app/pages/home/mentor_page.dart';
 // import 'package:competify_app/pages/home/team_page.dart';
+=======
+import 'package:competify_app/pages/home/lomba_page.dart';
+import 'package:competify_app/pages/home/mentor_page.dart';
+import 'package:competify_app/pages/home/team_page.dart';
+>>>>>>> dd430eecf6348505757ab1a7134ebd547f08921b
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -14,11 +20,19 @@ class SectionNavbar extends StatefulWidget {
 class _SectionNavbarState extends State<SectionNavbar> {
   int _selectedIndex = 0;
 
+<<<<<<< HEAD
   // final List<Widget> _pages = [
   //   const LombaPage(),
   //   const MentorPage(),
   //   const TeamPage(),
   // ];
+=======
+  final List<Widget> _pages = [
+    const LombaPage(),
+    const MentorPage(),
+    const TeamPage(),
+  ];
+>>>>>>> dd430eecf6348505757ab1a7134ebd547f08921b
 
   final List<Map<String, dynamic>> _sections = [
     {'label': "Lomba", 'icon': Icons.emoji_events},
