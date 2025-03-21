@@ -38,7 +38,6 @@ Widget build(BuildContext context) {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-<<<<<<< HEAD
               // Logo
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -58,8 +57,6 @@ Widget build(BuildContext context) {
               const SizedBox(height: 15),
 
               // Card untuk Login / Register
-=======
->>>>>>> dd430eecf6348505757ab1a7134ebd547f08921b
               Card(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(25),
